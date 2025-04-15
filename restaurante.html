@@ -1,1 +1,71 @@
-hola
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Nuestro Restaurante</h1>
+        <p>Disfruta de la mejor comida en un ambiente acogedor</p>
+    </header>
+
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <section class="menu" id="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="menu-item">
+            <img src="menu1.jpg" alt="Plato 1">
+            <h3>Plato 1</h3>
+            <p>Descripción del plato 1.</p>
+        </div>
+        <div class="menu-item">
+            <img src="menu2.jpg" alt="Plato 2">
+            <h3>Plato 2</h3>
+            <p>Descripción del plato 2.</p>
+        </div>
+        <div class="menu-item">
+            <img src="menu3.jpg" alt="Plato 3">
+            <h3>Plato 3</h3>
+            <p>Descripción del plato 3.</p>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2>Galería</h2>
+        <div class="gallery-item">
+            <img src="gallery1.jpg" alt="Imagen 1">
+            <h3>Imagen 1</h3>
+        </div>
+        <div class="gallery-item">
+            <img src="gallery2.jpg" alt="Imagen 2">
+            <h3>Imagen 2</h3>
+        </div>
+        <div class="gallery-item">
+            <img src="gallery3.jpg" alt="Imagen 3">
+            <h3>Imagen 3</h3>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu email" required>
+            <textarea name="message" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Restaurante. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
