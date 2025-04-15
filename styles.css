@@ -7,12 +7,15 @@ body {
 }
 
 header {
-    background: url('header-bg.jpg') no-repeat center center/cover;
+
+    background: url('imagen2.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 0;
-}
-
+    position: relative;
+  }
+  
+  
 header h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
@@ -70,27 +73,44 @@ nav a:hover {
 
 .menu-item p, .gallery-item p {
     font-size: 1rem;
-    color: #666;
+    color: #21311b;
+}
+
+/* Estilos para la sección de contacto */
+.contact {
+    background-image: url('LimaMalecon.png'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen */
+    padding: 50px;
+    color: white; /* Asegura que el texto sea visible sobre el fondo */
 }
 
 .contact form {
     display: inline-block;
     text-align: left;
+    background: rgba(250, 250, 250, 0.74); /* Fondo oscuro semi-transparente para el formulario */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px; /* Limita el tamaño máximo del formulario */
+    margin: 0 auto;
 }
 
-.contact form input, .contact form textarea {
+.contact form input, 
+.contact form textarea {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
-    border: 1px solid #ccc;
+    border: 2px solid #61dd0e;
     border-radius: 4px;
+    font-size: 1rem;
 }
 
 .contact form button {
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 4px;
-    background-color: #ff6f61;
+    background-color: #2e04e6;
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
@@ -98,12 +118,18 @@ nav a:hover {
 }
 
 .contact form button:hover {
-    background-color: #ff5252;
+    background-color: #bbb234;
 }
 
+/* Estilos para el pie de página */
 footer {
-    background-color: #333;
+    background-color: #3ed61fb0;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+}
+
+h4{
+    color: #10da3c;
+    font-size: 40px;
 }
